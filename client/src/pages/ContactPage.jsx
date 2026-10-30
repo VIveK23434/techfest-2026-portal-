@@ -57,7 +57,7 @@ export default function ContactPage() {
             <input
               type="text"
               required
-              placeholder="e.g. Bindhya P.S."
+              placeholder="Enter your full name"
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               style={{ width: '100%', padding: '10px', borderRadius: '6px', border: '1px solid var(--border)', backgroundColor: 'var(--bg-card)', color: 'var(--text-primary)' }}

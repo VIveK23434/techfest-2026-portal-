@@ -25,7 +25,7 @@ const defaultEvents = [
     seatsLeft: 18,
     date: '2026-11-13',
     venue: 'Seminar Hall 1',
-    coordinator: 'Prof. Bindhya P.S.',
+    coordinator: 'Dept. Faculty Coordinator',
   },
   {
     name: 'CyberSecurity CTF Challenge',

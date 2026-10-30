@@ -168,7 +168,7 @@ export default function RegisterPage() {
               <input
                 type="text"
                 name="name"
-                placeholder="e.g. Bindhya P.S."
+                placeholder="Enter your full name"
                 value={formData.name}
                 onChange={handleChange}
                 style={{

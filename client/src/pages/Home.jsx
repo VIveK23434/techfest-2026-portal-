@@ -234,7 +234,7 @@ export default function Home() {
                   <td style={{ padding: '12px 16px' }}>Cloud & DevOps Deployment Hands-on</td>
                   <td style={{ padding: '12px 16px' }}><span className="badge badge-available">Workshop</span></td>
                   <td style={{ padding: '12px 16px' }}>Seminar Hall 1</td>
-                  <td style={{ padding: '12px 16px' }}>Prof. Bindhya P.S.</td>
+                  <td style={{ padding: '12px 16px' }}>Faculty Coordinator</td>
                 </tr>
                 <tr>
                   <td style={{ padding: '12px 16px', fontWeight: 600 }}>04:00 PM</td>
@@ -266,7 +266,7 @@ export default function Home() {
               </div>
               <div>
                 <dt style={{ fontWeight: 700 }}>Staff Coordinator:</dt>
-                <dd style={{ color: 'var(--text-muted)', marginLeft: '12px' }}>Prof. Bindhya P.S. (Dept. of CSE)</dd>
+                <dd style={{ color: 'var(--text-muted)', marginLeft: '12px' }}>Faculty Coordinator (Dept. of CSE)</dd>
               </div>
               <div>
                 <dt style={{ fontWeight: 700 }}>Student Convener:</dt>
