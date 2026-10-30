@@ -48,7 +48,7 @@ export default function Home() {
             TechFest 2026 Portal
           </h1>
           <p style={{ fontSize: '1rem', color: '#fef08a', fontWeight: 600, marginBottom: '0.5rem' }}>
-            🔔 Special Announcement: Early Bird Registrations Open for National Hackathon!
+            🔔 Special Announcement: Limited seats remaining! Register today!
           </p>
 
           <p style={{ fontSize: '1.2rem', maxWidth: '700px', margin: '0 auto 2rem', opacity: 0.95 }}>
