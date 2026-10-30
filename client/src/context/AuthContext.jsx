@@ -3,9 +3,12 @@ import axios from 'axios';
 
 const AuthContext = createContext();
 
-// Base API configuration
+// Base API configuration with intelligent fallback
 export const API_BASE_URL =
-  import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  import.meta.env.VITE_API_URL ||
+  (typeof window !== 'undefined' && window.location.hostname.includes('netlify.app')
+    ? 'https://techfest-2026-api-idrc.onrender.com'
+    : 'http://localhost:5000');
 
 axios.defaults.baseURL = API_BASE_URL;
 axios.defaults.withCredentials = true;

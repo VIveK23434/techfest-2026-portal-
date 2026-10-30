@@ -10,7 +10,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 10000;
 const CLIENT_ORIGIN = process.env.CLIENT_ORIGIN || 'http://localhost:5173';
 const MONGO_URI =
   process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/techfest';
@@ -144,7 +144,7 @@ if (process.env.NODE_ENV !== 'test') {
       console.log('ℹ️ Running in resilient mode. Database operations will retry upon valid connection.');
     });
 
-  const server = app.listen(PORT, () => {
+  const server = app.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 TechFest 2026 Backend running on port ${PORT}`);
     console.log(`📡 Health Check URL: http://localhost:${PORT}/api/health`);
     console.log(`🔒 Security headers (Helmet) & NoSQL Sanitization enabled`);
