@@ -47,6 +47,9 @@ export default function Home() {
           <h1 style={{ fontSize: '3rem', fontWeight: 900, marginBottom: '1rem', lineHeight: 1.2 }}>
             TechFest 2026 Portal
           </h1>
+          <p style={{ fontSize: '1rem', color: '#fef08a', fontWeight: 600, marginBottom: '0.5rem' }}>
+            🔔 Special Announcement: Early Bird Registrations Open for National Hackathon!
+          </p>
 
           <p style={{ fontSize: '1.2rem', maxWidth: '700px', margin: '0 auto 2rem', opacity: 0.95 }}>
             Annual National Technical Symposium. Explore cutting-edge workshops, hackathons, and competitions hosted on a production-hardened MERN stack.
